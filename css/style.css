@@ -4,12 +4,12 @@ html,
 body {
    margin: 0;
     padding: 0;
-    counter-reset: section;                     /* Устанавливает значение
+
 }
 body {
     /*font-family: 'Playfair Display', serif;*/
     font-family: 'Open Sans', 'Ariel', sans-serif;
-    color: #111111;
+    /*color: #111111;*/
     counter-reset: section;
 }
 h2 {
@@ -28,6 +28,22 @@ p {
     font-size: 21px;
     font-weight: 400;
     line-height: 30.89px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.light-bg {
+    background-color: #ffffff;
+}
+.dark-bg {
+    background-color: #111111;
+}
+.light-font {
+    color: #ffffff;
+}
+.dark-font {
+    color: #111111;
 }
 .wrapp {
     max-width: 1920px;
@@ -49,12 +65,13 @@ p {
     height: 100%;
     margin-right: auto;
     margin-left: auto;
+    background: url("../img/bg-line.png") repeat-y;
 }
 .main-header {
     padding: 25px 0;
     margin-right: auto;
     margin-left: auto;
-    /*position: fixed;*/
+    position: fixed;
     left: 0;
     right: 0;
     background: #ffffff;
@@ -107,7 +124,7 @@ header .menu {
     position: relative;
     padding-top: 119px;
     max-width: 100%;
-    height: 648px;
+    height: 100%;
     /*height: 100vh;*/
 }
 .wrapp .picture {
@@ -122,7 +139,8 @@ header .menu {
     position: absolute;
     top: 0;
     width: 100%;
-    height: 785px;
+    height: 100%;
+    /*height: 785px;*/
     background-image: linear-gradient(to top, #333333 0%, transparent 100%);
     background-size: 100%;
     background-position: center;
@@ -175,9 +193,9 @@ header .menu {
 }
 .about-us {
     width: 100%;
-    height: 648px;
-    /*height: 100vh;*/
-    background: url("../img/bg-white.png");
+    /*height: 648px;*/
+    height: 100vh;
+    /*background: url("../img/bg-white.png");*/
 }
 .about-us .wrapper {
     display: flex;
@@ -206,6 +224,7 @@ header .menu {
     margin: 0;
     z-index: 2;
 }
+
 .about-us .about-job {
     display: flex;
     justify-content: flex-start;
@@ -258,6 +277,91 @@ header .menu {
     top: -70px;
     left: 0;
     z-index: 1;
-    /* Отображает текущее
-                                                 значение счетчика */
+}
+.practice {
+    height: 100vh;
+    padding-top: 50px;
+}
+.practice .wrapper {
+    background: url("../img/bg-dark-line.png") repeat-y;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.practice .section-header::before {
+    color: #1a1a1a;
+}
+.service  {
+    list-style: none;
+    padding: 0;
+    width: 1110px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-item {
+    padding-left: 195px;
+    height: 155px;
+    position: relative;
+}
+.service-item .service-description {
+    width: 357px;
+    height: 89px;
+    font-family: "Open Sans", 'Ariel', serif;;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.service .service-item::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 110px;
+}
+.service .private::before {
+    left: 110px;
+    width: 58px;
+    height: 38px;
+    background: url("../img/private.png");
+}
+.service .labour::before {
+    left: 125px;
+    width: 42px;
+    height: 42px;
+    background: url("../img/key.png");
+}
+.service .sequre::before {
+    left: 110px;
+    width: 49px;
+    height: 43px;
+    background: url("../img/screen.png");
+}
+.service .real::before {
+    left: 125px;
+    width: 42px;
+    height: 33px;
+    background: url("../img/house.png");
+}
+.meet {
+    height: 100vh;
+}
+.meet .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.list-attorney {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list-attorney-item {
+    max-width: 273px;
+}
+.list-attorney-item h3 {
+    margin: 10px 0 5px;
+    padding-left: 10px;
+}
+.list-attorney-item span {
+    padding-left: 10px;
 }
