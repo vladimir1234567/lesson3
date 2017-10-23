@@ -278,7 +278,9 @@ header .menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-position: 49%;
 }
+
 .practice .section-header::before {
     color: #1a1a1a;
 }
@@ -388,5 +390,52 @@ header .menu {
 .reviews .section-description {
     color: #b9b9b9;
 }
-
-
+.review {
+    display: flex;
+}
+.review-photo {
+    position: relative;
+    width: 370px;
+    height: 302px;
+    margin-left: 0;
+}
+.review-photo img {
+    position: relative;
+    z-index: 2;
+}
+.review-photo::after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 370px;
+    height: 302px;
+    background: #e8bf5d;
+    z-index: 1;
+}
+.client-review {
+    padding-left: 80px;
+}
+.review-text {
+    padding-top: 35px;
+    margin-bottom: 35px;
+    width: 600px;
+    height: 138px;
+    color: #ffffff;
+    font-family: "Open Sans", 'Ariel', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.56px;
+}
+.client-title {
+    margin: 0 0 10px;
+}
+.published-recent {
+    height: 100vh;
+}
+.published-recent .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
