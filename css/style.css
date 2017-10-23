@@ -439,3 +439,17 @@ header .menu {
     flex-direction: column;
     justify-content: center;
 }
+.recent-list {
+    display: flex;
+    justify-content: space-between;
+}
+.recent-photo {
+    margin: 0;
+}
+.recent-title {
+    margin-bottom: 0;
+}
+.descript {
+    display: flex;
+    justify-content: space-between;
+}
