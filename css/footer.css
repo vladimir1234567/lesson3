@@ -5,6 +5,15 @@ footer .wrapper {
     display: flex;
     justify-content: space-between;
 }
+.copy {
+    color: #b5b5b5;
+    font-family: "Open Sans", "Ariel", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+}
+.copy a {
+text-decoration: none}
 .wrapper .social {
     display: flex;
     width: 120px;
