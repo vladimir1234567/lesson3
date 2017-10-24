@@ -1,0 +1,66 @@
+.about-us {
+    width: 100%;
+    height: 100vh;
+}
+.about-us .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.same-header {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 60px;
+    border-left: 5px solid #e8bf5d;
+    z-index: 2;
+}
+.same-header .section-title {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0px;
+    z-index: 2;
+}
+.same-header .section-description {
+    position: relative;
+    width: 715px;
+    padding-bottom: 5px;
+    margin: 0;
+    z-index: 2;
+}
+.about-us .about-job {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.expertize .expert-description {
+    width: 486px;
+    height: 169px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.56px;
+}
+.history dl {
+    width: 640px;
+}
+.history dt {
+    display: inline-block;
+    margin-right: 50px;
+    color: #111111;
+    font-family: "Open Sans", "Ariel", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 0.84px;
+}
+.history dd {
+    display: inline-block;
+    width: 455px;
+    height: 38px;
+    margin-bottom: 20px;
+    color: #111111;
+    font-family: "Open Sans", "Ariel", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.64px;
+}

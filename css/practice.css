@@ -1,0 +1,68 @@
+.practice {
+    height: 100vh;
+    padding: 100px;
+}
+.practice .wrapper {
+    background: url("../img/bg-dark-line.png") repeat-y;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: 49%;
+}
+.practice .same-header::before {
+    color: #1a1a1a;
+}
+.practice .section-description {
+    color:#b9b9b9;
+}
+.service  {
+    list-style: none;
+    padding: 0;
+    width: 1110px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-item {
+    padding-left: 195px;
+    height: 155px;
+    position: relative;
+}
+.service-item .service-description {
+    width: 357px;
+    height: 89px;
+    font-family: "Open Sans", 'Ariel', serif;;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.service .service-item::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 110px;
+}
+.service .private::before {
+    left: 110px;
+    width: 58px;
+    height: 38px;
+    background: url("../img/private.png");
+}
+.service .labour::before {
+    left: 125px;
+    width: 42px;
+    height: 42px;
+    background: url("../img/key.png");
+}
+.service .sequre::before {
+    left: 110px;
+    width: 49px;
+    height: 43px;
+    background: url("../img/screen.png");
+}
+.service .real::before {
+    left: 125px;
+    width: 42px;
+    height: 33px;
+    background: url("../img/house.png");
+}

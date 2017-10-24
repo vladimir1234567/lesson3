@@ -1,0 +1,25 @@
+.meet {
+    height: 100vh;
+    padding: 100px 0
+}
+.meet .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.list-attorney {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list-attorney-item {
+    max-width: 273px;
+}
+.list-attorney-item h3 {
+    margin: 10px 0 5px;
+    padding-left: 10px;
+}
+.list-attorney-item span {
+    padding-left: 10px;
+    color; #666666;
+}

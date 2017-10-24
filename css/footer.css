@@ -1,0 +1,28 @@
+footer {
+    padding: 35px 0;
+}
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper .social {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+.social .social-link {
+    display: block;
+    width: 16px;
+    height: 16px;
+    font-size: 0;
+    background: url("../img/sprite.png");
+}
+.social .tw {
+    background-position: -29px 0;
+}
+.social .gl {
+    background-position: -64px 0;
+}
+.social .ig {
+    background-position: -96px 0;
+}
