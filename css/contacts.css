@@ -40,11 +40,11 @@
 .contact-item textarea {
     color: #b9b9b9;
     border: none;
-    /*border-bottom: 4px solid #d6d6d6;*/
     outline: none;
     font-family: "Open Sans", "Ariel", sans-serif;
     font-size: 14px;
     font-style: italic;
+    resize: none;
 }
 .contact-card figure {
     position: relative;
