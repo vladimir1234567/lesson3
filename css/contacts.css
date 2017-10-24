@@ -27,7 +27,7 @@
     border: 0;
 }
 .contact input {
-    width: 350px;
+    width: 300px;
     color: #b9b9b9;
     border: 0;
     outline: none;
@@ -37,10 +37,10 @@
     line-height: 31px;
     letter-spacing: 0.56px;
 }
-.your-message {
+.contact-item textarea {
     color: #b9b9b9;
     border: none;
-    border-bottom: 4px solid #d6d6d6;
+    /*border-bottom: 4px solid #d6d6d6;*/
     outline: none;
     font-family: "Open Sans", "Ariel", sans-serif;
     font-size: 14px;
