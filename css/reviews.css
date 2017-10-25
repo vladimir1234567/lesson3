@@ -1,6 +1,7 @@
 .reviews {
-    height: 750px;
-    background: url("../img/reviews-bg.jpg");
+    height: 100vh;
+    background: url("../img/reviews-bg.jpg") no-repeat;
+    background-size: cover;
 }
 .reviews .wrapper {
     position: relative;
