@@ -1,6 +1,6 @@
 .practice {
     position: relative;
-    height: 100vh;
+    height: 110vh;
 }
 .practice::before {
     content: "";
@@ -26,7 +26,7 @@
     list-style: none;
     padding: 0;
     width: 1110px;
-    height: 430px;
+    min-height: 430px;
     display: flex;
     flex-wrap: wrap;
 }

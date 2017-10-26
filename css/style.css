@@ -52,7 +52,7 @@ ul {
     height: 100%;
     margin-right: auto;
     margin-left: auto;
-    background: url("../img/bg-line.png") repeat-y;
+    /*background: url("../img/bg-line.png") repeat-y;*/
     background-position: 49%;
 }
 
