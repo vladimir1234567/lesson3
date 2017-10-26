@@ -1,4 +1,5 @@
 .meet {
+    position: relative;
     height: 100vh;
 }
 .meet:before {

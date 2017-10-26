@@ -23,9 +23,6 @@ header .logo a{
     text-transform: uppercase;
     color: #111111;
 }
-header .menu {
-    width: 700px;
-}
 .menu .menu-list {
     display: flex;
     justify-content: space-between;
