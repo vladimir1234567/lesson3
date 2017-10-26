@@ -1,5 +1,21 @@
 .faq {
+    position: relative;
     height: 100vh;
+}
+.faq::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg-dark-line.png") repeat-y;
+    background-position: center;
+    z-index: 1;
+}
+.faq .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .faq .same-header::before {
     color: #1a1a1a;
@@ -7,14 +23,7 @@
 .faq .section-description {
     color:#b9b9b9;
 }
-.faq .wrapper {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: url("../img/bg-dark-line.png") repeat-y;
-    background-position: 49%;
-}
+
 .faq .faq-title {
     font-family: "Open Sans", 'Ariel', sans-serif;
 }

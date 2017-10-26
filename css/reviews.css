@@ -1,15 +1,23 @@
 .reviews {
+    position: relative;
     height: 100vh;
     background: url("../img/reviews-bg.jpg") no-repeat;
     background-size: cover;
 }
+.reviews::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg-dark-line.png") repeat-y;
+    background-position: center;
+    z-index: 1;
+}
 .reviews .wrapper {
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url("../img/bg-dark-line.png") repeat-y;
-    background-position: 49%;
 }
 .reviews .same-header::before {
     color: #262626;
@@ -57,4 +65,4 @@
 }
 .client-title {
     margin: 0 0 10px;
-}
+/*}*/
