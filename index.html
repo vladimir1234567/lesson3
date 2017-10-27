@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/contacts.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/same-header.css">
+    <link rel="stylesheet" href="css/contact-card.css">
+    <link rel="stylesheet" href="css/button-contact.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -45,7 +47,7 @@
                         <h2 class="hero-title">Adam Suaeres</h2>
                         <p class="hero-description">Lawyer</p>
                     </div>
-                    <button type="button" class="hero-contact">Contact Me</button>
+                    <button type="button" class="button-contact">Contact Me</button>
                 </div>
             </div>
         </section>
@@ -79,19 +81,17 @@
                             </dd>
                         </dl>
                     </section>
-                    <section class="expert dark-font">
+                    <article class="expertize">
                         <h3 class="expertize-title">Expertize</h3>
-                        <article class="expertize">
-                            <p class="expert-description">
-                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                                nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                                erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-                                et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-                                Lorem.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                                diam nonumy eirmod tempor invidunt
-                            </p>
-                        </article>
-                    </section>
+                        <p class="expert-description">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                            diam nonumy eirmod tempor invidunt
+                        </p>
+                    </article>
                 </section>
             </div>
         </section>
@@ -215,74 +215,38 @@
                 </header>
                 <ul class="recent-list">
                     <li class="recent-item">
-                        <figure class="recent-photo">
-                            <img src="img/dispute.jpg" width="373" alt="photo">
-                        </figure>
                         <article class="published">
-                            <header class="published-header">
-                                <h3 class="recent-title">Publication Tite</h3>
-                                <div class="descript">
-                                    <span>By Adam Suarez</span>
-                                    <time datetime="2015-11-12"> 12 Nov, 2015</time>
-                                </div>
-                            </header>
-                        <p class="item-description">
-                            Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr, sed diam nonumy eirmod tempor invidunt ut
-                            labore et dolore magna aliquyam erat, sed diam
-                            voluptua. At vero eos et accusam et justo duo
-                            dolores et ea rebum.
-                        </p>
-                        <footer class="footer-item">
-                            <span>29 Comments</span>
-                            <input type="image" src="img/share.png" alt="">
-                        </footer>
+                            <figure class="recent-photo">
+                                <img src="img/dispute.jpg" width="373" alt="photo">
+                            </figure>
+                            <h3 class="recent-title">Publication Tite</h3>
+                            <div class="author">
+                                <span>By Adam Suarez</span>
+                                <time datetime="2015-11-12"> 12 Nov, 2015</time>
+                            </div>
+                            <p class="item-description">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing
+                                elitr, sed diam nonumy eirmod tempor invidunt ut
+                                labore et dolore magna aliquyam erat, sed diam
+                                voluptua. At vero eos et accusam et justo duo
+                                dolores et ea rebum.
+                            </p>
+                            <div class="links-item">
+                                <a href="#" class="item-comment">29 Comments</a>
+                                <a href="#" class="item-share">Share</a>
+                            </div>
                         </article>
                     </li>
                     <li class="recent-item">
+                        <article class="published">
                         <figure class="recent-photo">
                             <img src="img/meeting.jpg" width="373" alt="photo">
                         </figure>
-                        <article class="published">
-                            <header class="published-header">
-                                <h3 class="recent-title">Publication Tite</h3>
-                                <div class="descript">
-                                    <span>By Adam Suarez</span>
-                                    <time datetime="2015-11-12"> 12 Nov, 2015</time>
-                                </div>
-                            </header>
-                            <p class="item-description">
-                                Lorem ipsum dolor sit amet, consetetur sadipscing
-                                elitr, sed diam nonumy eirmod tempor invidunt ut
-                                labore et dolore magna aliquyam erat, sed diam
-                                voluptua. At vero eos et accusam et justo duo
-                                dolores et ea rebum.
-                            </p>
-                            <footer class="footer-item">
-                                <span>29 Comments</span>
-                                <input type="image" src="img/share.png" alt="">
-                            </footer>
-                        </article>
-                    </li>
-                    <li class="recent-item">
-                        <figure class="recent-photo">
-                            <img src="img/decide.jpg" width="373" alt="photo">
-                        </figure>
-                        <article class="published">
-                            <header class="published-header">
-                                <h3 class="recent-title">Publication Tite</h3>
-                                <div class="descript">
-                                    <span>By Adam Suarez</span>
-                                    <time datetime="2015-11-12"> 12 Nov, 2015</time>
-                                </div>
-                            </header>
-                            <p class="item-description">
-                                Lorem ipsum dolor sit amet, consetetur sadipscing
-                                elitr, sed diam nonumy eirmod tempor invidunt ut
-                                labore et dolore magna aliquyam erat, sed diam
-                                voluptua. At vero eos et accusam et justo duo
-                                dolores et ea rebum.
-                            </p>
+                        <h3 class="recent-title">Publication Tite</h3>
+                        <div class="author">
+                            <span>By Adam Suarez</span>
+                            <time datetime="2015-11-12"> 12 Nov, 2015</time>
+                        </div>
                         <p class="item-description">
                             Lorem ipsum dolor sit amet, consetetur sadipscing
                             elitr, sed diam nonumy eirmod tempor invidunt ut
@@ -290,10 +254,33 @@
                             voluptua. At vero eos et accusam et justo duo
                             dolores et ea rebum.
                         </p>
-                            <footer class="footer-item">
-                                <span>29 Comments</span>
-                                <input type="image" src="img/share.png" alt="">
-                            </footer>
+                        <div class="links-item">
+                            <a href="#" class="item-comment">29 Comments</a>
+                            <a href="#" class="item-share">Share</a>
+                        </div>
+                    </article>
+                    </li>
+                    <li class="recent-item">
+                        <article class="published">
+                            <figure class="recent-photo">
+                                <img src="img/decide.jpg" width="373" alt="photo">
+                            </figure>
+                            <h3 class="recent-title">Publication Tite</h3>
+                            <div class="author">
+                                <span>By Adam Suarez</span>
+                                <time datetime="2015-11-12"> 12 Nov, 2015</time>
+                            </div>
+                            <p class="item-description">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing
+                                elitr, sed diam nonumy eirmod tempor invidunt ut
+                                labore et dolore magna aliquyam erat, sed diam
+                                voluptua. At vero eos et accusam et justo duo
+                                dolores et ea rebum.
+                            </p>
+                            <div class="links-item">
+                                <a href="#" class="item-comment">29 Comments</a>
+                                <a href="#" class="item-share">Share</a>
+                            </div>
                         </article>
                     </li>
                 </ul>
@@ -308,14 +295,14 @@
                         on delivering unsurpassed user experiences.
                     </p>
                 </header>
-                <article class="info">
+                <p class="info">
                     Long established fact that a reader will be distracted by
                     the readable content of a page when looking at its layout.
                     The point of using Lorem Ipsum is that it has a
                     more-or-less normal distribution of letters, as opposed to
                     using 'Content here, content here', making it look like
                     readable English.
-                </article>
+                </p>
             </div>
         </section>
         <section class="contacts light-bg" id="contacts">
@@ -343,7 +330,7 @@
                                 <textarea name="your-message" id="message" cols="41" rows="5" placeholder="Enter your message"></textarea>
                             </li>
                             <li  class="contact-item">
-                                <button type="submit" class="hero-contact">Send Message</button>
+                                <button type="submit" class="button-contact">Send Message</button>
                             </li>
                         </ul>
                     </form>

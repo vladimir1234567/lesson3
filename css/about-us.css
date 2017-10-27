@@ -16,7 +16,6 @@
     flex-direction: column;
     justify-content: center;
 }
-
 .about-us .about-job {
     display: flex;
     justify-content: flex-start;
@@ -32,9 +31,11 @@
 }
 .history dl {
     width: 640px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .history dt {
-    display: inline-block;
     margin-right: 50px;
     color: #111111;
     font-family: "Open Sans", "Ariel", sans-serif;
@@ -43,9 +44,7 @@
     letter-spacing: 0.84px;
 }
 .history dd {
-    display: inline-block;
     width: 455px;
-    height: 38px;
     margin-bottom: 20px;
     color: #111111;
     font-family: "Open Sans", "Ariel", sans-serif;

@@ -30,11 +30,12 @@
 .recent-title {
     margin-bottom: 0;
 }
-.descript {
+.author {
     display: flex;
     justify-content: space-between;
 }
 .published {
+    padding-bottom: 50px;
     border-bottom: 5px solid  #e8bf5d;
 }
 .item-description {
@@ -48,15 +49,20 @@
     line-height: 31px;
     letter-spacing: 0.56px;
 }
-.footer-item {
+.links-item {
     display: flex;
     justify-content: space-between;
 }
-.footer-item span {
+.links-item .item-comment,
+.links-item .item-share {
+    display: inline-block;
+    text-decoration: none;
     position: relative;
     padding-left: 25px;
+    font-size: 16px;
+    font-weight: 400;
 }
-.footer-item span::before {
+.links-item .item-comment::before {
     content: "";
     position: absolute;
     top: 3px;
@@ -64,5 +70,14 @@
     width: 19px;
     height: 16px;
     background: url("../img/comments.png");
+}
+.links-item .item-share::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: -5px;
+    width: 20px;
+    height: 16px;
+    background: url("../img/share.png");
     z-index: 2;
 }

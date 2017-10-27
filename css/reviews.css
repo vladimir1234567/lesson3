@@ -46,10 +46,19 @@
     width: 370px;
     height: 302px;
     background: #e8bf5d;
-    z-index: 1;
 }
 .client-review {
     padding-left: 80px;
+    position: relative;
+}
+.client-review::before {
+    position: absolute;
+    content: "";
+    top: 48px;
+    left: 40px;
+    width: 30px;
+    height: 25px;
+    background: url("../img/quote.png");
 }
 .review-text {
     padding-top: 35px;
